@@ -13,7 +13,7 @@ const Toolbar = (props) => {
   }
 
   // console.log("qqwqw", process.env.REACT_APP_PORT);
-  const ENDPOINT = `https://resuim-maps.herokuapp.com/:${process.env.PORT}`;
+  const ENDPOINT = `https://resuim-maps.herokuapp.com`;
 
   let socket = io(ENDPOINT);
   let TS = new Date().getTime();
